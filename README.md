@@ -34,6 +34,7 @@ And a shared module that contains shared code between microservices (models, con
 ### Note: The order of the commands is important!
 
 1. run `docker-compose -f docker-compose.yml -f docker-compose.dev.yml up --build` to start the project
+2. Api will be available on port `3000`
 
 When running, the following happens:
 - then it build the images for `core` and `events` services
